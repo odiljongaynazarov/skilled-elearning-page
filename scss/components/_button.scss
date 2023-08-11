@@ -1,0 +1,37 @@
+.header__btn {
+  @include buttons(100%, 16.7rem, 1.4rem, 3.1rem, 1.4rem, 3.1rem, 2.8rem, 700);
+  text-align: center;
+  color: $white-color;
+  background-color: $text-color;
+
+  &:hover{
+    background-color: $button-activ-color;
+    transform: rotate(15deg);
+  }
+}
+.hero__btn {
+  @include buttons(100%, 16.7rem, 1.4rem, 3.1rem, 1.4rem, 3.2rem, 2.8rem, 700);
+  text-align: center;
+  color: $white-color;
+  background-color: $main-color;
+
+
+  &:hover{
+    background: $main-color;
+    opacity: 0.6;
+    transform: rotate(399deg);
+  }
+}
+.footer__btn {
+  @include buttons(100%, 16.7rem, 1.4rem, 3.1rem, 1.4rem, 3.2rem, 2.8rem, 700);
+  text-align: center;
+  color: $white-color;
+  background-color: $button-color;
+
+
+  &:hover{
+    background: $main-color;
+    opacity: 0.5;
+    transform: rotate(15deg);
+}
+}

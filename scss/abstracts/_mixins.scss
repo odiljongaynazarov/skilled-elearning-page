@@ -1,0 +1,11 @@
+@mixin buttons($w, $mw, $pt, $pb, $pl, $pr, $br, $fw) {
+  width: $w;
+  max-width: $mw;
+  padding-top: $pt;
+  padding-bottom: $pb;
+  padding-left: $pl;
+  padding-right: $pr;
+  border-radius: $br;
+  font-weight: $fw;
+  
+}
